@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "150501907641",
+    "project_id": "swanseacw-329e4",
+    "storage_bucket": "swanseacw-329e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150501907641:android:6699d9f8d3fe9fe7274f68",
+        "android_client_info": {
+          "package_name": "tian.bogdan.mihai.student976188.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150501907641-3optusjtbflfkeu76ksqp852u1ns63eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADdDAAjTYy8jVqrMOjhylUILcrt2gGquI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150501907641-3optusjtbflfkeu76ksqp852u1ns63eh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

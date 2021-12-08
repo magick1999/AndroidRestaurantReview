@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Food Review</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+        <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_client_token">49634ffbb04fd4bb40690daad13e46cc</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="default_web_client_idd">1505fasfasusjtbflaasfkeu76ksqp852u1ns63eh.apps.googleusercontent.com</string>
+    <string name="firebase_web_host" translatable="false">CHANGE-ME</string>
+    <string name="facebook_app_id">4598fd7055</string>
+    <string name="facebook_login_protocol_scheme">fb4598asdf47055</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="restaurant_location">Restaurant Location</string>
+    <string name="restaurant_rating">Restaurant Rating</string>
+    <string name="restaurant_description">Restaurant Description</string>
+    <string name="reviewer_name">Reviewer Name</string>
+    <string name="review_location">Review Location</string>
+    <string name="review_edit">Edit</string>
+    <string name="review_description">Review Description</string>
+    <string name="my_reviews">My Reviews</string>
+    <string name="review_hint">Review</string>
+    <string name="submit_review">Submit Review</string>
+    <string name="add_location">Add Location</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="sort_by">Sort by</string>
+    <string name="sort_by_name">Name</string>
+    <string name="sort_by_rating">Rating</string>
+    <string name="sort_orderAscending">Ascending</string>
+    <string name="sort_orderDescending">Descending</string>
+    <string name="login_email">Login Email</string>
+    <string name="password">Password</string>
+    <string name="error">Error</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="leave_a_review">Hi could you please leave us a review?</string>
+    <string name="review">Review</string>
+    <string name="guest">Guest</string>
+
+</resources>

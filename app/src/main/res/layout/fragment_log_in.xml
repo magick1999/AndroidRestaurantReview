@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.logIn.LogInFragment" >
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:alwaysDrawnWithCache="false"
+        android:animateLayoutChanges="false"
+        android:animationCache="false"
+        android:background="#33FFFFFF"
+        android:clickable="true"
+        android:enabled="true"
+        android:focusable="auto"
+        android:hint="@string/login_email"
+        android:minHeight="48dp"
+        app:helperText="@string/login_email"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="#FFFFFF"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#33FFFFFF"
+        android:clickable="true"
+        android:enabled="true"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:boxBackgroundMode="outline"
+        app:helperText="@string/password"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="#FFFFFF"
+        app:passwordToggleContentDescription="Show Password"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTintMode="src_in" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/error_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/error"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:visibility="invisible" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:text="@string/sign_in"
+        android:textAlignment="center" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:text="@string/sign_out"
+        android:textAlignment="center" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_sign_in_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:buttonSize="wide"
+        android:layout_gravity="center"
+        android:contextClickable="true"
+        android:textAlignment="center" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/btn_sign_in_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:contextClickable="true"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+</LinearLayout>

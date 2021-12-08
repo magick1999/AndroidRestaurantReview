@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".ui.editReview.EditReviewFragment"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/review_container"
+        android:layout_margin="10dp"
+        android:layout_weight="0"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:cardCornerRadius="8dp"
+        app:contentPadding="10dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/review_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_weight="6"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/review_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/review_hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/review_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="6"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/review_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:text="@string/review_location" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/action_settings"
+        android:isIndicator="false"
+        android:max="5"
+        android:numStars="5"
+        android:rating="0" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="6">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_load_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="@string/add_photo"
+            android:textSize="11sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/submit_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="@string/submit_review"
+            android:textSize="11sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_load_review_loc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="@string/add_location"
+            android:textSize="11sp" />
+    </LinearLayout>
+</LinearLayout>
